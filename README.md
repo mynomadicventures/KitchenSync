@@ -35,6 +35,8 @@ Extending the current implementation can support SDK like functionality to keep 
 
 A web interface or GUI implementation can be created for the same, with logic running the service in background upon a successful connection.
 
+* Support to write Configs to Sync different type of files, custom loggers, connect to db(in future versions.)
+
 
 # Version
 current version : 1.1
