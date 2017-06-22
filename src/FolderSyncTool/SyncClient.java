@@ -29,6 +29,7 @@ public class SyncClient {
     public static void main (String [] args ) throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println(REMOTE_IP_ADDRESS_MSG);
+        System.out.println("Ex : /Users/Desktop/Directory2/");
         IPA = scanner.nextLine();
         if(!validator.validate(IPA)) {
             System.out.printf(IF_NOT_VALID_IP_MSG);
@@ -39,7 +40,7 @@ public class SyncClient {
         dir1 = Paths.get(scanner.nextLine());
         PATH_TO_FILE = dir1.toAbsolutePath().toString() + "/";
 
-        System.out.println(REMOTE_PORT_TO_SYNC);
+        System.out.println(REMOTE_PORT_TO_SYNC + "Ex: (12222)");
         PORT = scanner.nextInt();
 
         int bytesRead;

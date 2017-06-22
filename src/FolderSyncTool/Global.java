@@ -21,9 +21,10 @@ public class Global {
         while (EXECUTE_FLAG == 0){
 
             System.out.println(FOLDER_SOURCE_MSG);
+            System.out.println("Ex : /Users/Desktop/Directory1");
             DIRECTORY = Paths.get(scanner.nextLine());
 
-            System.out.println(REMOTE_PORT_TO_SYNC);
+            System.out.println(REMOTE_PORT_TO_SYNC + "Ex: (12222)");
             PORT = scanner.nextInt();
             System.out.format(CONNECTION_EST_MSG_FORMATTER, PORT);
 
