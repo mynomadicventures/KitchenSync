@@ -14,7 +14,7 @@ KitchenSync, a CLI Folder Syncronization Tool is a Java implementation on rsync,
   * Sync more than one folder on a system to other folders asynchronously.
   
   
-# Usage
+# Setup
 To Run in CLI mode : 
 * Compile the java files, or import project in idea intellij.
 * Run the Global.java to run watcher service on the system from where the files need to be synced.
